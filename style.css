@@ -1,0 +1,74 @@
+#Call_Window{
+    height:500px;
+    width: 700px;
+    background-color: white; 
+    margin:auto ;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+#call_menu:hover{
+    color:#007bff;
+    background-color: #f6f7f9;
+    border-radius: 5px;
+}
+
+.form-control2{
+    background-color:#e9ecef;
+    border-radius: 10px;
+}
+
+.form-control{
+    background-color:#e9ecef;
+    border-radius: 10px;
+    border-style:none;
+}
+
+.form-control:focus{
+    background-color:#e9ecef;
+    box-shadow: none;
+    border-style:none;
+}
+
+
+
+#Recording_items:hover {
+    background-color: #f6f7f9;
+    border-style:none;
+    border-radius: 5px;
+}
+
+#Recording_items:hover .tags{
+    background-color: #fff!important;
+}
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+line-height: unset;   
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+:root{
+    scrollbar-color: #d3d3d3 #ffffff;
+    scrollbar-width: thin !important;
+  }
+  
+*::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: lightgray;
+    border-radius: 25px;
+  }
+
+audio{
+    border-radius: 10px;
+    height:40px;
+}
+
+*:focus {
+    outline: none;
+}
